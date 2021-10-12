@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-07T09:11:16.772Z",
+        "line": 3,
+        "name": "Verification of Download link",
+        "description": "",
+        "id": "download;verification-of-download-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4951000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page of Selenium",
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.user_is_on_home_page_of_selenium()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Clicks on Downloads Link",
+            "match": {
+              "location": "stepDefinition.SeleniumSteps.user_clicks_on_downloads_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1092000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title should be \"Download | Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Download | Selenium\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.SeleniumSteps.title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Download",
+    "description": "",
+    "id": "download",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/selenimDev.feature",
+    "tags": []
+  }
+]
